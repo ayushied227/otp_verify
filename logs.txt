@@ -1,0 +1,7 @@
+fields.E304 error occured, so added AUTH_USER_MODEL, AUTHENTICATION_BACKENDS.
+
+create superuser pending
+
+File "C:\Users\Ayushi Dufare\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\backends\sqlite3\base.py", line 357, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: email_verf_user
